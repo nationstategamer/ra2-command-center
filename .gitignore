@@ -1,0 +1,23 @@
+# Build output
+native/build/
+launcher/*.exe
+launcher/tests/*.exe
+launcher/tests/temp/
+launcher/tests/ui-check*/
+dist/
+*.obj
+*.pdb
+*.ilk
+*.map
+*.exp
+*.lib
+
+# Game data must never be committed
+*.mix
+*.mmx
+*.yro
+*.sav
+*.SAV
+research/stock/
+research/cache/
+__pycache__/
